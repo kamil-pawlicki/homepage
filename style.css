@@ -1,0 +1,41 @@
+body {
+    color: #040536;
+    background-color: #fefefe;
+
+}
+
+h1 {
+    color: #000018;
+    background-color: dimgray;
+}
+
+h2 {
+    color: #074079;
+}
+
+div {
+    border-color: black;
+
+}
+
+section {
+    background-color: cornflowerblue;
+}
+
+header {
+    background-color: darkgray;
+}
+
+footer {
+    background-color: #a79999;
+}
+
+article {
+    background-color: #b5d1ee;
+}
+nav a {
+    color: green;
+}
+a {
+    color: orangered;
+}
