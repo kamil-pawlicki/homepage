@@ -1,5 +1,5 @@
 body {
-  color: #040536;
+    color: #040536;
   background-color: #fefefe;
 }
 
@@ -14,6 +14,7 @@ h2 {
 
 div {
   border: black;
+  display: inline-block;
 }
 
 
@@ -72,6 +73,23 @@ a {
     padding: 10px;
     border: 2px solid darkblue;
   }
-  .article {
-      color: red;
+
+.article {
+    color: #06067a;
+    padding: 20px;
+    border: 2px solid darkblue;
+    border-radius: 5px;
+    overflow: auto;
+    margin: 10px;
+    
+    width: 40vw;
+    
+    height: 260px;
+}
+.article__paragraph {
+    padding: 5px;
   }
+.article__title {
+    font-style: italic;
+    color: #07073b;
+}
