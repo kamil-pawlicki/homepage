@@ -39,3 +39,10 @@ nav a {
 a {
     color: orangered;
 }
+
+.navigation {
+    background: rgb(140, 235, 131);
+    color:rgb(4, 32, 4);
+    padding: 15px;
+    border: 3px solid #000018;
+}
