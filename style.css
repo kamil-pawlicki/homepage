@@ -1,48 +1,77 @@
 body {
-    color: #040536;
-    background-color: #fefefe;
-
+  color: #040536;
+  background-color: #fefefe;
 }
 
 h1 {
-    color: #000018;
-    background-color: dimgray;
+  color: #000018;
+  background-color: dimgray;
 }
 
 h2 {
-    color: #074079;
+  color: #074079;
 }
 
 div {
-    border-color: black;
-
+  border: black;
 }
 
-section {
-    background-color: cornflowerblue;
-}
+
 
 header {
-    background-color: darkgray;
+  background-color: darkgray;
 }
 
 footer {
-    background-color: darkgrey;
+  background-color: darkgrey;
 }
 
 article {
-    background-color: #b5d1ee;
+  background-color: #b5d1ee;
 }
 nav a {
-    color: green;
+  color: green;
 }
 a {
-    color: orangered;
+  color: orangered;
 }
 
 .navigation {
-    background: rgb(140, 235, 131);
-    color:rgb(4, 32, 4);
-    padding: 15px;
-    border: 3px solid #000018;
+  background: rgb(140, 235, 131);
+  color: #0c2e0c;
+  padding: 15px;
+  border: 3px solid #193b19;
+  border-radius: 25%;
+  margin: 5px;
+  position: fixed;
+  left: 5%;
+  top: 5px;
+  overflow: auto;
 }
+.navigation__link {
+  padding: 10px;
+  font-style: italic;
+}
+.navigation__link--homepage {
+  color: rgb(4, 32, 4);
+  padding: 10px;
+  font-style: normal;
+}
+.main {
+  margin-top: 70px;
+}
+#top {
+  background-color: aqua;
+  color: brown;
+  height: 50px;
+  max-width: 1000px;
+}
+
+#oMnie {
+    background-color: cornflowerblue;
+    padding: 10px;
+    border: 2px solid darkblue;
+  }
+  .article {
+      color: red;
+  }

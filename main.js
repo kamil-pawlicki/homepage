@@ -5,3 +5,5 @@ const age = 30;
 console.log(firstName);
 console.log(age);
 console.log(`Nazywam się ${firstName} , mam ${age} lat a to jest moja pierwsza strona.`);
+
+const header = document.querySelector
