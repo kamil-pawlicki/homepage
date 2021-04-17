@@ -1,11 +1,12 @@
 body {
     color: #040536;
-  background-color: #fefefe;
+  background-color: #bff579;
 }
 
 h1 {
   color: #000018;
-  background-color: dimgray;
+  background-color: rgb(4, 219, 219);
+  border: 1px solid black;
 }
 
 h2 {
@@ -25,6 +26,7 @@ header {
 
 footer {
   background-color: darkgrey;
+  border: 1px solid black;
 }
 
 article {
@@ -35,6 +37,27 @@ nav a {
 }
 a {
   color: orangered;
+}
+
+
+#top {
+  background-color: #4fbba9;
+  color: brown;
+  height: 50px;
+  width: 200px;
+  border: 2px dotted black;
+}
+#oMnie {
+  background-color: cornflowerblue;
+  padding: 10px;
+  border: 2px solid darkblue;
+  margin-bottom: 10px;
+}
+#notatki {
+  background-color: cornflowerblue;
+  padding: 10px;
+  border: 2px solid darkblue;
+  margin-bottom: 10px;
 }
 
 .navigation {
@@ -61,18 +84,8 @@ a {
 .main {
   margin-top: 70px;
 }
-#top {
-  background-color: aqua;
-  color: brown;
-  height: 50px;
-  max-width: 1000px;
-}
 
-#oMnie {
-    background-color: cornflowerblue;
-    padding: 10px;
-    border: 2px solid darkblue;
-  }
+
 
 .article {
     color: #06067a;
