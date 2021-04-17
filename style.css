@@ -83,9 +83,13 @@ a {
 }
 .main {
   margin-top: 70px;
+  box-sizing: border-box;
+  max-width: 1000px;
 }
 
-
+.div {
+  width: 45%;
+}
 
 .article {
     color: #06067a;
@@ -95,12 +99,13 @@ a {
     overflow: auto;
     margin: 10px;
     
-    width: 40vw;
+    
     
     height: 260px;
 }
 .article__paragraph {
     padding: 5px;
+    text-align: left;
   }
 .article__title {
     font-style: italic;
