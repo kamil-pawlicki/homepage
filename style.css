@@ -114,3 +114,11 @@ a {
     font-style: italic;
     color: #07073b;
 }
+.dom {
+  color: red;
+  background-color: blue;
+}
+.dom--js {
+  color: red;
+  background-color: blue;
+}

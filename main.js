@@ -6,4 +6,10 @@ console.log(firstName);
 console.log(age);
 console.log(`Nazywam się ${firstName} , mam ${age} lat a to jest moja pierwsza strona.`);
 
-const header = document.querySelector;
+const paragraph = document.querySelector('.dom')
+console.log(paragraph.innerHTML);
+
+
+paragraph.innerHTML = 'Ram pam pam'
+console.log(paragraph)
+console.log(paragraph.innerHTML)
