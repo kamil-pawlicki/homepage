@@ -72,8 +72,8 @@ a {
   background-color: blue;
 }
 .dom--js {
-  color: red;
-  background-color: blue;
+  color: rgb(29, 4, 4);
+  background-color: rgb(131, 131, 182);
 }
 
 .about {
