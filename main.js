@@ -59,3 +59,23 @@ console.log(`zapisujemy rowanie y=F(2) za pomocą 'const y=F(2)'`);
 const y = F(2);
 console.log(`na koncu piszemy komende 'consol.log(y)' aby otrzymac wynik`);
 console.log(y);
+
+
+function zmianaTekstu(selectorCss, tekst) {
+    const element = document.querySelector (selectorCss);
+    element.innerHTML = tekst;
+}
+zmianaTekstu('.article__paragraph--js', 'Witaj świecie J-S');
+
+console.log(`.......oddzielamy od reszty......`)
+
+function liczymy(number) {
+    number = number+3;
+    console.log(number);
+    return number*3;
+}
+liczymy(5);
+number = 2;
+liczymy(number);
+console.log(number);
+liczymy(10);
