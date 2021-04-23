@@ -70,12 +70,46 @@ zmianaTekstu('.article__paragraph--js', 'Witaj świecie J-S');
 console.log(`.......oddzielamy od reszty......`)
 
 function liczymy(number) {
-    number = number+3;
+    
     console.log(number);
-    return number*3;
+    return number-1;
 }
-liczymy(5);
-number = 2;
-liczymy(number);
-console.log(number);
-liczymy(10);
+
+console.log(`..........1`);
+const wynikReturn = liczymy(5);
+console.log(`........2`);
+console.log(wynikReturn);
+console.log(`...........3`);
+
+const blabla = liczymy(200);
+console.log(`...........4`);
+console.log(blabla);
+
+
+console.log(` INNY SPOSOB  ZAPISU  FUNKCJI`);
+const funkcjaInaczej = (hello) => {
+    hello = `Hello world Java Script`;
+    console.log(hello);
+    
+}
+
+funkcjaInaczej();
+
+const deathStar = {
+    diameter: 120000,
+    fire: (target) => {
+        console.log(`${target} destroyed [*]`)
+    },
+    
+    name: 'Death Star',
+    levels: 357,
+    population: 10000,
+    isLightOn: true,
+    commander: {
+        name: 'Darth Vader',
+        age: 44,
+    }
+}
+
+console.log(`HEy  IGI`),
+console.log(`hi`)
