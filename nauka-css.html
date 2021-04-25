@@ -5,108 +5,159 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="normalize.css" rel="stylesheet" type="text/css" />
+    <link href="nauka-style.css" rel="stylesheet" type="text/css" />
   </head>
 
   <body>
-    <header>
-      <nav>
-        <a href="index.html">Strona główna</a>
-        <a href="nauka-html.html">Nauka html</a>
-        <a href="nauka-css.html">Nauka css</a>
+    <header class="top-header">Kamil Leon Pawlicki</header>
+      <nav class="navigation">
+        
+        <div><a class="navigation__link navigation__link--homepage" href="index.html">Strona główna</a></div>
+        <div></div><a class="navigation__link" href="nauka-html.html">Nauka html</a></div>
+        <div></div><a class="navigation__link" href="nauka-css.html">Nauka css</a></div>
       </nav>
-    </header>
-    <main>
-      <header id="top"><a>Nauka CSS</a></header>
-      <img src="C:\Users\klpaw\Desktop\css.png" alt="obraz css" />
+    
 
-      <section id="oMnie">
-        <h1>Moje ulubione własności</h1>
+    <main class = "main">
+      <img class="main__picture--pedobear" src="C:\dev\homepage\pedobear.jpg" alt="PedoBear" />
+      <h1 class="main__header">Kamil Leon Pawlicki - Strona Domowa
 
-        <div>
-          <article>
-            <blockquote>
-              <h2>Color</h2>
+      </h1>
 
-              <p>Zmienia kolor danego elementu,</p>
-            </blockquote>
+      <section class="about">
+        <h2 class="main__secondary-header">Kamil Leon Pawlicki – pare słów o mnie</h2>
+        <img class="about__picture" src="Superman_Action_976_Gary_Frank.png" alt="Supermen" />
+
+        <div class="div">
+          <article class="article"> 
+            
+              <h2 class="article__title">Tata</h2>
+
+              <p class="article__paragraph">
+                Nie bez przyczyny na pierwszym miejscu. 
+                Ojciec wspaniałej dwu letniej Mayci (Maya, Mayeczka, Mayunia).
+                
+                Tak, pisane przez „Y” 😊 Urodzona w Angli, śliczna córeczka jest
+                moim oczkiem w głowie. 
+                Zarówno cudowna i słodka, jak wredna i złośliwa (po tatusiu
+                oczywiście :D ).
+                Przy obcych anioł, w domu diabełek , to chyba standard u dzieci.
+                <a href="#notatki">Przejdź do natatek.</a>
+              </p>
+            
           </article>
         </div>
 
-        <div>
-          <article>
-            <blockquote>
-              <h2>Partner</h2>
-              <p></p>
-            </blockquote>
+        <div class="div">
+          <article class="article">
+            
+              <h2 class="article__title">Partner</h2>
+              <p class="article__paragraph"> 
+                Skoro jest dziecko, to i musi stać za tym jakaś kobieta. 
+                W tym przypadku nie ” jakaś”, tylko najlepsza mama dla mojej
+                córeczki, 
+                jaką mogę sobie wyobrazić 😊 Dla mnie jest ostoją, wsparciem,
+                ciepłem którego by nie było w domu bez niej. 
+                Jest także moją największą i jedyną prawdziwą miłością życia.
+              </p>
+            
           </article>
         </div>
 
-        <div>
-          <article>
-            <h2>Budowlaniec</h2>
-            <p></p>
+        <div class="div">
+          <article class="article">
+            <h2 class="article__title">Budowlaniec</h2>
+            <p class="article__paragraph"> 
+              Po ukończeniu technikum budowlanego cały czas w zawodzie. 
+              Głownie praca za granicą, a obecnie działalność w Polsce. 
+              Wykończenia wnętrz, tynki wewnętrzne maszynowe, zabudowy, 
+              podwieszane sufity i wiele więcej co was zapewne nie interesuje 😊
+            </p>
           </article>
         </div>
 
-        <div>
-          <article>
-            <h2>Trener personalny</h2>
-            <p></p>
+        <div class="div">
+          <article class="article">
+            <h2 class="article__title">Trener personalny</h2>
+            <p class="article__paragraph">
+              Poza fizyczną pracą, miałem zawsze fizyczne hobby. 
+              Siłownie od 14\15 roku życia. Cały czas. Bez wymówek, nie tylko
+              przed sezonem 😊 
+              Kulturystyka pozwalała mi skupić się na poprawie sylwetki,
+              wyćwiczyła determinacje, 
+              dyscyplinę, zawziętość oraz pewność siebie (mając duży ciężar nad
+              głową nie wolno się wahać).
+              
+              Do tego dorzuciłem w technikum sztuki walk. MMA oraz BJJ na
+              początek, 
+              potem liznąłem trochę kick-boxingu oraz tajskiego boksu.
+              Zrobiłem licencję trenerską. Wszystko fajnie przełożyło się na
+              sylwetkę oraz sprawność, 
+              lecz z czasem zaczęło wszystko zbyt mocno przeciążać i forsować
+              organizm, 
+              czego skutkiem okazały się problemy zdrowotne, na tle
+              przeciążeniowym.
+            </p>
           </article>
         </div>
-        <div>
-          <article>
-            <h2>Ochroniarz</h2>
-            <p></p>
+        <div class="div">
+          <article class="article">
+            <h2 class="article__title">Ochroniarz</h2>
+            <p class="article__paragraph">
+              Parę lat temu mogliście mnie spotkać w klubach muzycznych oraz
+              dyskotekach 
+              jako door selector, czyli po Polsku „schaba przy wejściu” 
+              z zacną magiczną plakietką z napisem „ochrona” :D
+            </p>
           </article>
         </div>
-        <div>
-          <article>
-            <h2>Outlander</h2>
-            <p>
+        <div class="div">
+          <article class="article">
+            <h2 class="article__title">Outlander</h2>
+            <p class="article__paragraph">
               Dużo czasu spędziłem za granicą (żyjąc, nie wakacjując się).
-              <br />
+              
               Niemcy 5 lat, Holandia 2 lata, Anglia 4 lata. Zdobywając
-              doświadczenie zawodowe większe, <br />
+              doświadczenie zawodowe większe, 
               niż zdobyłbym w Polsce. Miałem okazje widzieć oraz pracując z
               różnymi ciekawymi technologiami,
-              <br />
+            
               widziałem dużo wpadek, dużo wypadków, dużo niedopilnowań itd.
-              Poznałem wiele typów ludzi, <br />
+              Poznałem wiele typów ludzi, 
               byłem w różnych skrajnych sytuacjach, byłem w pięknych miejscach
-              widząc piękne widoki. <br />
+              widząc piękne widoki. 
               Dzięki temu wszystkiemu pogląd na świat oraz horyzonty są dużo
               szersze niż od oglądania TVN czy Polsat 😊
             </p>
           </article>
         </div>
 
-        <div>
-          <article>
-            <h2>Kierowca</h2>
-            <p>
+        <div class="div">
+          <article class="article">
+            <h2 class="article__title">Kierowca</h2>
+            <p class="article__paragraph">
               Odkąd zdałem prawko po osiągnięciu magicznej 18stki, nie rozstałem
               się z kluczykami i kierownicą. <br />
-              Tylko kluczyki i kierownice zmieniam co jakiś czas 😊<br />
+              Tylko kluczyki i kierownice zmieniam co jakiś czas 😊
               Przez lata jeżdżąc za granice, dużo jeżdżąc tam i przyjeżdżając co
               jakiś czas w odwiedziny do PL
-              <br />
+              
               nawaliłem większy przebieg niż ma nie jeden starszy samochód.
-              <br />
+              
               Po przekroczeniu 200 tysięcy km kilka lat temu przestałem liczć :D
             </p>
           </article>
         </div>
 
-        <div>
-          <article>
-            <h2>Programista</h2>
-            <p>
+        <div class="div">
+          <article class="article">
+            <h2 class="article__title">Programista</h2>
+            <p class="article__paragraph">
               Wisienka na torcie pozostała na koniec 😊 Tą przygodę dopiero
-              zaczynam,<br />
+              zaczynam,
               ale nie zamierzam w tym być gorszy niż w moich innych rolach w
-              życiu 😊 <br />
+              życiu 😊 
               Palce dopiero rozgrzewam na klawiaturze, ale to kwestia czasu do
               zostania wyjadaczem 😊
             </p>
@@ -114,83 +165,182 @@
         </div>
       </section>
 
-      <section id="notatki">
-        <h1>Notatki z WTF: co ten frontend</h1>
+      <section class="notes">
+        <h1 class="main__secondary-header">Notatki z WTF: co ten frontend</h1>
 
-        <div>
-          <article>
-            <h2>Tydzień 1</h2>
-            <p>
-              Wprowadzenie, wyjaśnienie czym jest frontend, instalacja Visula
-              Studio Code, prezentacja ścieżki rozwoju, wprowadzanie zmian na
-              gotowej stronie.
+        <div class="div">
+          <article class="article">
+            <h2 class="article__title">Tydzień 1</h2>
+            <p class="article__paragraph">
+              <ul>
+                <li>Wprowadzenie</li> 
+                <li>wyjaśnienie czym jest frontend</li> 
+                <li>instalacja Visula
+                  Studio Code</li> 
+              <li>prezentacja ścieżki rozwoju, wprowadzanie zmian na
+                gotowej stronie.</li>
+              </ul>
+              
             </p>
           </article>
         </div>
 
-        <div>
-          <article>
-            <h2>Tydzień 2</h2>
-            <p>
-              Wytłumaczenie zasady działania warstw frontendu. Html wpływa na
-              treść. CSS odpowiadający za style wpływa na HTML oraz na Treść.
-              Java odpowiedzialna za funkcje i klasy wpływa na CSS, HTML i
-              Treść.
-              <br />
-              Podstawowe polecenia języka HTML, takie jak: składnia <&lt>,
-              h1-h6, section, article itp.
-              <br />
-              Podstawowe polecenia języka CSS, takie jak: składnia {}, selektor
-              {wartość:"";}, color, background-color, link href="nazwa pliku"
-              rel="stylesheet" type="text/css".
-              <br />
-              Porównanie programowania do gotowania. Schemat blokowy. <br />
-              W kodowaniu jak w gotowaniu - Potrzebne jest: spis składników
-              potrzebnych do przygotowania potrawy; dokładnie opisany przepis;
-              prawidłowo wykonane czynności.
-              <br />
-              Poznanie DevTools komendą F12 na witrynie internetowej.
-              sprawdzanie poszczególnych elementów Prawym klawiszem Myszy
-              "zbadaj" . Możliwe są edycje strony w celu podglądu wersji. Po
-              odświeżeniu wszystko wraca do normy.
-              <br />
-              Zadania domowe. Stworzyć Homepage, Index, style.css, notatki z
-              WTF,
+        <div class="div">
+          <article class="article">
+            <h2 class="article__title">Tydzień 2</h2>
+            <p class="article__paragraph">
+              <ul>
+                <li>Wytłumaczenie zasady działania warstw frontendu. Html wpływa na
+                  treść. CSS odpowiadający za style wpływa na HTML oraz na Treść.
+                  Java odpowiedzialna za funkcje i klasy wpływa na CSS, HTML i
+                  Treść.</li>
+                <li>Podstawowe polecenia języka HTML, takie jak: składnia <  >,
+                  h1-h6, section, article itp.</li>
+                <li> Podstawowe polecenia języka CSS, takie jak: składnia {}, selektor
+                  {wartość:"";}, color, background-color, link href="nazwa pliku"
+                  rel="stylesheet" type="text/css".</li>
+                <li>Porównanie programowania do gotowania. Schemat blokowy. <br />
+                  W kodowaniu jak w gotowaniu - Potrzebne jest: spis składników
+                  potrzebnych do przygotowania potrawy; dokładnie opisany przepis;
+                  prawidłowo wykonane czynności.</li>
+                <li>Poznanie DevTools komendą F12 na witrynie internetowej.
+                  sprawdzanie poszczególnych elementów Prawym klawiszem Myszy
+                  "zbadaj" . Możliwe są edycje strony w celu podglądu wersji. Po
+                  odświeżeniu wszystko wraca do normy.</li>
+              <li>Zadania domowe. Stworzyć Homepage, Index, style.css, notatki z WTF 
+            </li>
+            </ul>
             </p>
           </article>
         </div>
 
-        <div>
-          <article>
-            <h2>Tydzień 3</h2>
-            <p>
-              Poznaje znaczniki : <br />
-              br - enter widoczny w przeglądarce / następna linie <br />
-              b - pogrubienie
-              <br />
-              i - kurwywa <br />
-              a href="" - nawigacja , linkowanie strony <br />
-              a href="#" - nawidacja do "id" punkt/artykuł na stronie
-              <br />
-              section id="" - oznaczenie sekcji nazwą "id"
-              <br />
+        <div class="div">
+          <article class="article">
+            <h2 class="article__title">Tydzień 3</h2>
+            <p class="article__paragraph"> 
+              <ul>Poznaje znaczniki HTML'a:
+                <li>br - enter widoczny w przeglądarce / następna linie</li>
+                <li>b - pogrubienie</li>
+                <li>i - kurwywa</li>
+                <li>a href="" - nawigacja , linkowanie strony</li>
+                <li>a href="#" - nawidacja do "id" punkt/artykuł na stronie</li>
+                <li>section id="" - oznaczenie sekcji nazwą "id"</li>
+                </ul>
+                 <ul>Poznaje znaczniki CSS oraz ich piorytetowość/ Specyficznosć:
+                   <li>!important - niezależnie od innych specyficzności (styli, id,
+                    elementu ) narzuca z góry wartość, dla wszystkich uwzględnionych
+                    przez "!important" elementów</li>
+                   <li>style="Name" - określenie wartości stylu w danej lini, paragrafie,
+                    ogólnie znaczniku w tekscie.</li>
+                   <li>#Name - ustalenie stylu dla id "Name"</li>
+                   <li>.Name - ustalenie stylu dla klasy "Name"</li>
+                   <li>Element - ustalenie stylu dla elementu (h1-h6, header, footer,
+                    itp)</li>
+                   </br>
+                   <li>
+                     Poznaje zasade działąnia przeglądarki i jej komunikacji z
+                    serwerwm.</li>
+                    <li>
+                      Poznaje więcej funkcji w DevTools (f12)
+                    </li>
+
+              <li>Poznaje podstawy JS, takie jak "script" , alert</li>
+
+            </ul>
             </p>
           </article>
         </div>
 
-        <div>
-          <article>
-            <h2>Tydzień 4</h2>
-            <p></p>
+        <div class="div">
+          <article class="article">
+            <h2 class="article__title">Tydzień 4</h2>
+            <p class="article__paragraph">
+              Git + GitHub:
+              <ul>
+                <li>Poznaje zasady korzystania z wiersza poleceń w celu komunikacji VSC z GitHubem</li>
+                <li>Zakładam i konfiguruje konto na GitHub</li>
+                <li>Wrzucam swój kod w sieć</li>
+
+              </ul>
+              Box model:
+              <ul>
+                <li>Zasady dzielenia strony na boxy</li>
+                <li>Margin, Border, Padding. Zasady, komendy, zastosowania</li>
+                <li>Jednostki (%, px)</li>
+                <li>Position (absolute, relative, fixed, sticky), </li>
+                  <li>z-index (przeźroczystość)</li>
+                  <li>Overflow , float</li>
+              </ul>
+            </p>
           </article>
-        </div>
+          </div>
+          <div class="div">
+
+          <article class="article">
+            <h2 class="article__title">Tydzień 5</h2>
+            <p class="article__paragraph"></p>
+          </div>
+            <div class="div">
+              <article class="article">
+                <h2 class="article__title">Tydzień 6</h2>
+                <p class="article__paragraph"></p>
+              </div>
+                <div class="div">
+                  <article class="article">
+                    <h2 class="article__title">Tydzień 7</h2>
+                    <p class="article__paragraph"></p>
+                  </div>
+                    <div class="div">
+                      <article class="article">
+                        <h2 class="article__title">Tydzień 8</h2>
+                        <p class="article__paragraph"></p>
+                      </div>
+
+                      <div class="div">
+
+                        <article class="article">
+                          <h2 class="article__title">Tydzień 9</h2>
+                          <p class="article__paragraph"></p>
+                        </div>
+                          <div class="div">
+                            <article class="article">
+                              <h2 class="article__title">Tydzień 10</h2>
+                              <p class="article__paragraph">
+                                <p class="dom dom--js">Bawimy sie JS w DOM</p>
+                              </p>
+                            </div>
+                              <div class="div">
+                                <article class="article">
+                                  <h2 class="article__title">Tydzień 11</h2>
+                                  <p class="article__paragraph--js">
+                                    Tydnień 11 testy zabawą JS
+
+                                  </p>
+                                </div>
+                                  <div class="div">
+                                    <article class="article">
+                                      <h2 class="article__title">Tydzień 12</h2>
+                                      <p class="article__paragraph"></p>
+                                    </div>
+                                    <div class="div">
+                                      <article class="article">
+                                        <h2 class="article__title">Tydzień 13</h2>
+                                        <p class="article__paragraph"></p>
+                                      </div>
+
+
+
+        
+
+  
       </section>
     </main>
-    <footer>
-      <center>
+    <footer class="footer">
+      
         Pozdrawiem Wszystkich Serdecznie
-        <a href="#top">Przejdź na górę strony</a>
-      </center>
+        <a class="footer__link" href="#top">Przejdź na górę strony</a>
+     
     </footer>
+    <script src="nauka-main.js"></script>
   </body>
 </html>

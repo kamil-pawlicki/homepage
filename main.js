@@ -111,5 +111,15 @@ const deathStar = {
     }
 }
 
-console.log(`HEy  IGI`),
-console.log(`hi`)
+console.log(`HEy  IGI`);
+console.log(`hi`);
+
+
+
+const greet = (age, firstName) => {
+    console.log(
+        `witaj odbiorco/odbiorczyni ja nazywam się ${firstName} i mam ${age} lat`
+    )
+}
+
+greet (age, firstName);
