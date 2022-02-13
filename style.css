@@ -54,6 +54,12 @@ a {
   padding: 10px;
   font-style: italic;
 }
+.navigation__link:hover {
+  color: #1460aa;
+}
+.navigation__link:visited {
+  color: gray;
+}
 .navigation__link--homepage {
   color: rgb(4, 32, 4);
   padding: 10px;
@@ -124,6 +130,9 @@ a {
   margin: 10px;
   height: 260px;
 }
+.article:hover {
+  color: hotpink;
+}
 .article__paragraph {
   padding: 5px;
   text-align: left;
@@ -135,6 +144,14 @@ a {
 .article__title {
   font-style: italic;
   color: #07073b;
+}
+.article__title::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: tomato;
+  border-radius: 50%;
 }
 .footer {
   background-color: darkgrey;
