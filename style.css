@@ -7,14 +7,14 @@ html {
 *:after {
   box-sizing: inherit;
 }
-body {
+.body {
   color: #040536;
   background: rgb(94, 217, 77);
   background: linear-gradient(
     72deg,
     rgba(94, 217, 77, 0.7287289915966386) 7%,
-    rgba(69, 230, 41, 0.9051995798319328) 38%,
-    rgba(100, 255, 217, 1) 85%
+    rgba(41, 101, 230, 0.905) 38%,
+    rgb(77, 13, 57) 85%
   );
 }
 
@@ -48,6 +48,7 @@ a {
   left: 5%;
   top: 25px;
   overflow: auto;
+  
 }
 .navigation__link {
   padding: 10px;
@@ -96,17 +97,23 @@ a {
   padding: 10px;
   border: 2px solid darkblue;
   margin-bottom: 10px;
+  display: grid;
 }
-
+.about__grid {
+  
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-gap: 1rem;
+}
+.notes__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-gap: 1rem;
+}
 .about__picture {
-  max-width: 600px;
+  min-width: 150px;
+  max-width: 360px;
 }
-.div {
-  width: 45%;
-
-  display: inline-block;
-}
-
 .article {
   background-color: #b5d1ee;
   color: #06067a;
@@ -115,7 +122,6 @@ a {
   border-radius: 5px;
   overflow: auto;
   margin: 10px;
-
   height: 260px;
 }
 .article__paragraph {
@@ -139,6 +145,10 @@ a {
 .footer__link {
   color: orangered;
 }
+
+
+
+
 
 .table {
   margin: auto;

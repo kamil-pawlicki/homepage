@@ -26,7 +26,7 @@ html {
       position: fixed;
       left: 1%;
       bottom: 1%;
-     
+     max-width: 12%;
   }
   
   nav a {
@@ -129,7 +129,24 @@ html {
   
     display: inline-block;
   }
-  
+  .grid {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    background-color: rgb(216 200 147);
+    padding: 10px;
+    border: 2px solid #0a8b00;
+    margin-bottom: 10px;
+  }
+
+  .grid__div {
+    display: grid;
+    
+  }
+  .grid__div__six {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
   .article {
     background-color: #b5d1ee;
     color: #06067a;
@@ -145,6 +162,10 @@ html {
     padding: 5px;
     text-align: left;
   }
+  .article__grid__paragraph {
+    padding: 5px;
+    text-align: left;
+  }
   .article__paragraph--js {
     background-color: hotpink;
     color: black;
@@ -153,6 +174,53 @@ html {
     font-style: italic;
     color: #07073b;
   }
+  .article__grid__title {
+    font-style: italic;
+    color: #07073b;
+  }
+  .article__grid {
+    background-color: #bcf042;
+    color: #57083c;
+    padding: 20px;
+    border: 2px solid rgb(231, 69, 41);
+    border-radius: 5px;
+    overflow: auto;
+    margin: 10px;
+  
+    height: 260px;
+  }
+  .article__grid__title2 {
+    font-style: italic;
+    color: #1e6e3f;
+  }
+  .article__grid2 {
+    background-color: #5bb69b;
+    color: #093004;
+    padding: 20px;
+    border: 2px solid rgb(97, 18, 5);
+    border-radius: 5px;
+    overflow: auto;
+    margin: 10px;
+  
+    height: 260px;
+  }
+  
+  .article__grid__title3 {
+    font-style: italic;
+    color: #6b2e63;
+  }
+  .article__grid3 {
+    background-color: #da79d5;
+    color: #3c0aaf;
+    padding: 20px;
+    border: 2px solid rgb(165, 42, 134);
+    border-radius: 5px;
+    overflow: auto;
+    margin: 10px;
+  
+    height: 260px;
+  }
+
   .footer {
     background-color: darkgrey;
     border: 1px solid black;
