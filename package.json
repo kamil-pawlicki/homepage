@@ -5,6 +5,7 @@
   "main": "main.js",
   "scripts": {
     "sass": "npx node-sass -w scss/style.scss style.css",
+    "sass-nauka": "npx node-sass -w nauka-style/nauka-style.scss nauka-style.css",
     "cow": "cowsay -s Say My Name Cowboy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
