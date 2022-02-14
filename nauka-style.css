@@ -27,6 +27,7 @@ html {
       left: 1%;
       bottom: 1%;
      max-width: 12%;
+     z-index: -1;
   }
   
   nav a {
@@ -122,6 +123,7 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
 
   }
   .div {

@@ -1,0 +1,25 @@
+{
+  "name": "homepage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "sass": "npx node-sass -w scss/style.scss style.css",
+    "cow": "cowsay -s Say My Name Cowboy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamil-pawlicki/homepage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kamil-pawlicki/homepage/issues"
+  },
+  "homepage": "https://github.com/kamil-pawlicki/homepage#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}

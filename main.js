@@ -150,3 +150,4 @@ if (!(ageManOne * 3 == ageManThree)) {
       console.log(`${manOne} nie jest 3 razy starszy od ${manThree}a`)
   }
 
+  console.log(cowsay('hi'));
