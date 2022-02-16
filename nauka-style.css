@@ -172,6 +172,22 @@ a {
     margin: 10px;
     height: 260px; }
 
+.main__header--secondary::before {
+  content: "";
+  display: inline-block;
+  background: black;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%; }
+
+.article__title::before {
+  content: "";
+  display: inline-block;
+  background: black;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%; }
+
 .footer {
   background-color: darkgrey;
   border: 1px solid black;

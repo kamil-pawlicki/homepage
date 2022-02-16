@@ -100,9 +100,6 @@ const deathStar = {
   },
 };
 
-console.log(`HEy  IGI`);
-console.log(`hi`);
-
 const greet = (age, firstName) => {
   console.log(
     `witaj odbiorco/odbiorczyni ja nazywam się ${firstName} i mam ${age} lat`
@@ -150,4 +147,3 @@ if (!(ageManOne * 3 == ageManThree)) {
       console.log(`${manOne} nie jest 3 razy starszy od ${manThree}a`)
   }
 
-  console.log(cowsay('hi'));
