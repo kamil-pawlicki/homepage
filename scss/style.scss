@@ -1,3 +1,7 @@
+@import "modules/article.scss";
+@import "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css";
+
+
 html {
   box-sizing: border-box;
 }
@@ -116,41 +120,6 @@ a {
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     grid-gap: 1rem;
   }
-}
-
-.article {
-  background-color: #b5d1ee;
-  color: #06067a;
-  padding: 20px;
-  border: 2px solid darkblue;
-  border-radius: 5px;
-  overflow: auto;
-  margin: 10px;
-  height: 260px;
-  &__title {
-    font-style: italic;
-    color: #07073b;
-    &::before {
-      content: "";
-      display: inline-block;
-      width: 16px;
-      height: 16px;
-      background: tomato;
-      border-radius: 50%;
-    }
-  }
-  &__paragraph {
-    padding: 5px;
-    text-align: left;
-    &--js {
-      background-color: hotpink;
-      color: black;
-    }
-  }
-}
-
-.article:hover {
-  color: hotpink;
 }
 
 .footer {

@@ -1,0 +1,36 @@
+
+.article {
+    background-color: #b5d1ee;
+    color: #06067a;
+    padding: 20px;
+    border: 2px solid darkblue;
+    border-radius: 5px;
+    overflow: auto;
+    margin: 10px;
+    height: 260px;
+    &__title {
+      font-style: italic;
+      color: #07073b;
+      &::before {
+        content: "";
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        background: tomato;
+        border-radius: 50%;
+      }
+    }
+    &__paragraph {
+      padding: 5px;
+      text-align: left;
+      &--js {
+        background-color: hotpink;
+        color: black;
+      }
+    }
+  }
+  
+  .article:hover {
+    color: hotpink;
+  }
+  
